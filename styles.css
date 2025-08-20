@@ -1,0 +1,85 @@
+p{
+  text-align: center;
+  margin: 1em auto;
+}
+
+body {
+background-image: url(https://i.redd.it/92uojpw8udf41.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  image-rendering: auto;
+}
+
+
+.menu{
+  width: 70%;
+  margin: auto;
+  background-color: #00000070;
+  color: #ffffff;
+  font-family: Tahoma;
+  font-size: 16px;
+}
+
+label {
+  display: block;
+  margin: 0.5rem 0;
+}
+
+fieldset{
+  border: none;
+  border-bottom: 1px solid #FFB6C1;
+  padding: 2rem 0;
+}
+
+fieldset:last-of-type{
+  border-bottom: none;
+} 
+
+img {
+  width: 300px; 
+  display: block;
+  margin: 0 auto; 
+}
+
+form{
+  width: 60vw;
+  max-width: 500px;
+  min-width: 300px;
+  margin: 0 auto;
+  padding-bottom: 2em;
+}
+
+input, textarea, select{
+  margin: 10px 0 0 0;
+  width: 100%;
+  min-height: 1.8em;
+}
+
+input, textarea, select{
+  background-color: #00000050;
+  border: #00000050;
+  color: #ffffff;
+}
+
+input[type="submit"]{
+  display: block;
+  width: 60%;
+  margin: 1em auto;
+  height: 2em;
+  font-size: 1.1rem;
+  background-color: #00000050;
+  border-color: #ffffff;
+  min-width: 300px;
+}
+
+legend{
+  padding: 1em;
+  position: relative;
+  left: -18px;
+}
+
+input[type="checkbox"], input[type="radio"]{
+  position: relative;
+  top: -35px;
+}

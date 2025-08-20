@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="menu">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/The_logo_simpsons_yellow.png/1200px-The_logo_simpsons_yellow.png?20210413044310">
+    <p id="description">Please complete the survey below</p>
+    
+    <form id="survey-form" method="post" action="https://register-demo.freecodecamp.org">
+      <fieldset>
+        <label for="name">Enter Your Name
+          <input type="text" id="name" placeholder="Enter your name" required />
+        </label>
+
+        <label for="email">Enter Your Email
+          <input type="text" id="email" placeholder="Enter your email" required />
+        </label>
+
+        <label for="age">Age
+          <input type="text" id="age" placeholder="Age" required />
+        </label>
+
+        <label for="consumption">Where do you watch the show?
+          <select name="consumption" id="consumption">
+            <option value="">
+              select
+            </option>
+
+            <option value="1">
+              television
+            </option>
+
+            <option value="2">
+              streaming service
+            </option>
+
+            <option value="3">
+              pirated website :(
+            </option>
+          </select>
+        </label>
+
+      </fieldset>
+
+      <fieldset>
+        <legend>Do you enjoy the show?</legend>
+        <label for="option-yes">Yes
+          <input type="radio" name="opinion" />
+        </label>
+
+        <label for="option-no">No
+          <input type="radio" name="opinion" />
+        </label>
+
+        <label for="option-perchance">Perchance
+          <input type="radio" name="opinion" />
+        </label>
+      </fieldset>
+
+      <fieldset>
+        <legend>What can be improved?</legend>
+        <label for="character-development">Character Development
+          <input name="character-development" class="inline" id="character-development" type="checkbox" />
+        </label>
+
+        <label for="pacing">Pacing
+          <input  name="pacing" class="inline" id="pacing" type="checkbox" />
+        </label>
+
+        <label for="comedy">Comedy
+          <input name="comedy" class="inline" id="comedy" type="checkbox" />
+        </label>
+
+        <label for="voice-acting">Voice Acting
+          <input name="voice-acting" class="inline" id="voice-acting" type="checkbox" />
+        </label>
+
+        <label for="animation"> Animation
+          <input name="animation" class="inline" id="animation" type="checkbox" />
+        </label>
+
+        <label for="beyond"> We are beyond saving
+           <input name="beyond" class="inline" id="beyond" type="checkbox" />
+        </label>
+
+         <label for="comments">Any comments or suggestions?
+          <textarea name="comments" id="comments" placeholder="Enter your comment here..." rows="5" cols="50" required ></textarea>
+        </label>
+      </fieldset>
+      <input type="submit" value="Submit" />
+
+    </form>
+    </div>
+  </body>
+</html>
